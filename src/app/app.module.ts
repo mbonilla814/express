@@ -12,10 +12,18 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { ContactoComponent } from './components/contacto/contacto.component';
+import { HeaderComponent } from './components/header/header.component';
+import { InicioComponent } from './components/inicio/inicio.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    ContactoComponent,
+    HeaderComponent,
+    InicioComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
