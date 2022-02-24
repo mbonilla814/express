@@ -1,3 +1,4 @@
+import { AcercadeComponent } from './components/acercade/acercade.component';
 import { InicioComponent } from './components/inicio/inicio.component';
 import { ContactoComponent } from './components/contacto/contacto.component';
 
@@ -6,7 +7,8 @@ import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
   {path: 'contacto', component: ContactoComponent},
-  {path: 'inicio', component: InicioComponent}
+  {path: 'inicio', component: InicioComponent},
+  {path: 'acercaDe', component: AcercadeComponent}
 ];
 
 @NgModule({
