@@ -17,6 +17,9 @@ import { HeaderComponent } from './components/header/header.component';
 import { InicioComponent } from './components/inicio/inicio.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { AcercadeComponent } from './components/acercade/acercade.component';
+import { MedicinaComponent } from './components/medicina/medicina.component';
+import { ComidaComponent } from './components/comida/comida.component';
+import { RepuestosComponent } from './components/repuestos/repuestos.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +29,9 @@ import { AcercadeComponent } from './components/acercade/acercade.component';
     InicioComponent,
     FooterComponent,
     AcercadeComponent,
+    MedicinaComponent,
+    ComidaComponent,
+    RepuestosComponent,
   ],
   imports: [
     BrowserModule,
